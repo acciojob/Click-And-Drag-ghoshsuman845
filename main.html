@@ -3,7 +3,7 @@
 <head>
   <title>Click and Drag Example</title>
   <style>
-    .container {
+    .items {
       width: 300px;
       height: 200px;
       overflow: hidden;
@@ -25,7 +25,7 @@
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="items">
     <div class="cubes">
       <div class="cube"></div>
       <div class="cube"></div>
@@ -36,7 +36,7 @@
   </div>
 
   <script>
-    const container = document.querySelector('.container');
+    const container = document.querySelector('.items');
     const cubes = document.querySelector('.cubes');
 
     let isDown = false;
